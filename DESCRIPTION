@@ -1,7 +1,7 @@
 Package: OmicGsea
 Type: Package
 Title: Geneset Enrichment Analysis for Complex Omics Data
-Version: 0.99
+Version: 0.99.0
 Authors@R:
   c(person("Zongli","Xu",email="xuz@niehs.nih.gov",role=c("cre","aut")),
     person("Liang", "Niu", role="aut",email="niulg@ucmail.uc.edu"))
