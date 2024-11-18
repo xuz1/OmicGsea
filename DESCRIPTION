@@ -1,0 +1,23 @@
+Package: OmicGsea
+Type: Package
+Title: Geneset Enrichment Analysis for Complex Omics Data
+Version: 0.99
+Authors@R:
+  c(person("Zongli","Xu",email="xuz@niehs.nih.gov",role=c("cre","aut")),
+    person("Liang", "Niu", role="aut",email="niulg@ucmail.uc.edu"))
+Description: OmicGsea R Package utilizing efficient methods that account for complex relationships in omics datasets, including probe correlations and varying probe counts per gene. This package supports the analysis of DNA methylation, gene expression, copy number variation (CNV), and other genomic data across multiple species.
+License: Artistic-2.0
+biocViews: GeneSetEnrichment, Pathways, Gene Ontology, KEGG, MSigDB, 
+        DNA Methylation, Gene expression, Microarray
+Depends: utils,stats,parallel,Matrix
+Suggests: msigdbr, org.Hs.eg.db, org.Mm.eg.db, minfi, knitr, rmarkdown, GO.db
+Imports:  dqrng,AnnotationDbi,poolr,BiasedUrn
+VignetteBuilder: knitr
+Encoding: UTF-8
+URL: https://github.com/Bioconductor/OmicGsea
+BugReports: https://github.com/Bioconductor/OmicGsea/issues
+git_url: https://git.bioconductor.org/packages/OmicGsea
+NeedsCompilation: no
+
+
+
