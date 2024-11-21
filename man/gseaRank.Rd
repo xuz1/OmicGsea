@@ -34,7 +34,6 @@ Zongli Xu, Alison A. Motsinger-Reif, Liang Niu, OmicGsea: Efficient Gene Set Enr
 \author{Zongli Xu}
 
 \examples{
-\donttest{
 kegg=getKEGG(species="Human")
 gene=unique(as.vector(unlist(kegg)))
 p=runif(length(gene))
@@ -47,4 +46,4 @@ gseaRank(stats=stats,gSetName="KEGG",scoreType="std",outfile="gsea9",nperm=1e5,n
 #enrichment of genes with higher statistics
 stats=sort(abs(stats),decr=TRUE)
 gseaRank(stats=stats,gSetName="KEGG",scoreType="std",outfile="gsea10",nperm=1e5,ncore=50)
-}}
+}

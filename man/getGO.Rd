@@ -22,8 +22,7 @@ getGO(subset="BP",species="Human")
 Zongli Xu
 }
 \examples{
-\donttest{
 GO=getGO(subset="BP",species="Human")
-}}
+}
 
 

@@ -21,8 +21,7 @@ getMSigDB(subset="C2",species="Human")
 \author{Zongli Xu}
 
 \examples{
-\donttest{
 MsigDB=getMSigDB(subset="C2",species="Human")
-}}
+}
 
 

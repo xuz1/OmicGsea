@@ -21,8 +21,7 @@ geneID2geneName(gid="NULL",species="Human")
 Zongli Xu
 }
 \examples{
-\donttest{
 gname=geneID2geneName(gid=c("672","675"),species="Human")
-}}
+}
 
 

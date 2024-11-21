@@ -20,8 +20,7 @@ getKEGG(species="Human")
 \author{Zongli Xu}
 
 \examples{
-\donttest{
 kegg=getKEGG(species="Human")
-}}
+}
 
 

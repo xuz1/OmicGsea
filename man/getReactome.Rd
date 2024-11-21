@@ -23,8 +23,7 @@ Zongli Xu, Liang Niu, OmicGsea: Efficient gene set analysis for complex Omics da
 \author{Zongli Xu}
 
 \examples{
-\donttest{
 Reactome=getReactome(species="Human")
-}}
+}
 
 

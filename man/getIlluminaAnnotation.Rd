@@ -21,8 +21,7 @@ getIlluminaAnnotation(arrayType=c("450K","EPIC"))
 Zongli Xu
 }
 \examples{
-\donttest{
 anno=getIlluminaAnnotation(arrayType="EPIC")
-}}
+}
 
 
