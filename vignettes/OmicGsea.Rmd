@@ -47,7 +47,7 @@ OmicGsea functions.
 
 ## Example 1: Differentially methylated probes from EWAS
 
-```{r example1, eval=TRUE,results = "hide"}
+```{r example1, eval=FALSE}
 #generating example data
 annopkg="IlluminaHumanMethylation450kanno.ilmn12.hg19"
 anno <- minfi::getAnnotation(eval(annopkg))
@@ -84,7 +84,7 @@ gseaProbe(probe.p=probe.p,nTopProbe=1000,arrayType="450K",gSetName="KEGG",
 
 ## Example 2: Enrichment analysis for arrays other than methylation 450K and EPIC
 
-```{r example2, eval=TRUE,results = "hide"}
+```{r example2, eval=FALSE}
 #generatin example dataset
 kegg=getKEGG(species="Human")
 gene1=unique(as.vector(unlist(kegg[1:5])))
@@ -110,7 +110,7 @@ gseaGene(probe.p=probe.p,Data4Cor=dat,GeneProbeTable=GeneProbeTable,
 
 ## Example 3: Enrichment analysis with user provided geneset
 
-```{r example3, eval=TRUE,results = "hide"}
+```{r example3, eval=FALSE}
 #generatin example dataset
 userGeneset=getKEGG(species="Human")
 
@@ -124,7 +124,7 @@ gseaGene(probe.p=probe.p,Data4Cor=dat,GeneProbeTable=GeneProbeTable,
 ## Example 4: Enrichment analysis with user provided geneset
 
 
-```{r example4, eval=TRUE,results = "hide"}
+```{r example4, eval=FALSE}
 #generatin example dataset
 userGeneset=getKEGG(species="Human")
 
@@ -137,7 +137,7 @@ gseaGene(probe.p=probe.p,Data4Cor=dat,GeneProbeTable=GeneProbeTable,
 
 ## Example 5: Enrichment analysis for gene expression type of data that do not need to combine test statistics
 
-```{r example5, eval=TRUE,results = "hide"}
+```{r example5, eval=FALSE}
 #generatin example dataset
 kegg=getKEGG(species="Human")
 gene=unique(as.vector(unlist(kegg)))

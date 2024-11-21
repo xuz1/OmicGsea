@@ -51,6 +51,7 @@ Zongli Xu, Alison A. Motsinger-Reif, Liang Niu, OmicGsea: Efficient Gene Set Enr
 \author{Zongli Xu}
 
 \examples{
+if(FALSE){
 kegg=getKEGG(species="Human")
 gene1=unique(as.vector(unlist(kegg[1:5])))
 gene2=unique(as.vector(unlist(kegg[6:length(kegg)])))
@@ -69,6 +70,6 @@ gseaPG(probe.p=probe.p,Data4Cor=dat,GeneProbeTable=GeneProbeTable,
         gSetName="KEGG",species="Human",ncore=50)
 gseaPG(probe.p=probe.p,Data4Cor=dat,GeneProbeTable=GeneProbeTable,
          MonteCarlo=TRUE,gSetName="KEGG",species="Human",outfile="genePG_MC",ncore=50)
-}
+}}
 
 
